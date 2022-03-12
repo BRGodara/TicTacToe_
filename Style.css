@@ -1,0 +1,198 @@
+#Div1, #Div2, #Div3, #Div4, #Div5, #Div6, #Div7, #Div8, #Div9{
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+	float: left;
+	text-align: center;
+	font-size: 150px;
+}
+#Div1, #Div4, #Div7{
+	clear: left;
+	border-left: none;
+}
+#Div1, #Div2, #Div3{
+	border-top: none;
+}
+#Div3, #Div6, #Div9{
+	border-right: none;
+}
+#Div7, #Div8, #Div9{
+	border-bottom: none;
+}
+#Game{
+	margin-left: 180px;
+	margin-top: 190px;
+}
+#Result{
+	height: 100px;
+	width: 900px;
+	border: 3px solid black;
+	background: #FFFFFF;
+	border-radius: 23px;
+	position: fixed;
+	top: 900px;
+	left: 37px;
+	font-size: 80px;
+	text-align: center;
+	color: #444444;
+}
+#Credits{
+	position: fixed;
+	bottom: -15px;
+	left: 1px;
+	font-size: 60px;
+	text-align: center;
+	width: 979px;
+	height: 100px;
+	background: #ACFFF2;
+	border-top: 1px solid black;
+	color: #FFB300;
+}
+#Reset{
+	background-image: url("Images/Reset.png");
+	background-size: 200px 200px;
+	height: 200px;
+	width: 200px;
+	position: fixed;
+	top: 1075px;
+	right: 200px;
+}
+#Reset:hover{
+	background-size: 190px 190px;
+	height: 190px;
+	width: 190px;
+	top: 1080px;
+	right: 205px;
+}
+#Back{
+	background-image: url("Images/Back.png");
+	background-size: 200px 200px;
+	height: 200px;
+	width: 200px;
+	position: fixed;
+	top: 1075px;
+	left: 200px;
+}
+#Back:hover{
+	background-size: 190px 190px;
+	height: 190px;
+	width: 190px;
+	top: 1080px;
+	left: 205px;
+}
+#Main{
+	display: none;
+}
+#Home{
+	display: block;
+}
+#GameLogo{
+	background-image: url("Images/Game_Logo.png");
+	background-size: 700px 200px;
+	height: 200px;
+	width: 700px;
+	position: fixed;
+	top: 150px;
+	left: 125px;
+}
+#CreatorLogo{
+	background-image: url("Images/Creator_Logo.png");
+	background-size: 200px 200px;
+	height: 200px;
+	width: 200px;
+	position: fixed;
+	bottom: 50px;
+	left: 50px;
+	border: 2px solid black;
+	border-radius: 100px;
+}
+#CreatorName{
+	position: fixed;
+	bottom: 100px;
+	left: 265px;
+	border: 2px solid black;
+	border-radius: 50px;
+	height: 100px;
+	width: 675px;
+	background: #00FFF8;
+	color: #454545;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+#Play{
+	background-image: url("Images/Play.png");
+	background-size: 300px 300px;
+	height: 300px;
+	width: 300px;
+	position: fixed;
+	top: 550px;
+	left: 335px;
+}
+#Play:hover{
+	background-size: 290px 290px;
+	height: 290px;
+	width: 290px;
+	top: 555px;
+	left: 340px;
+}
+#Position{
+	position: fixed;
+	top: 3px;
+	left: 1px;
+	height: 100px;
+	width: 1000px;
+}
+#XTurn{
+	height: 100px;
+	width: 300px;
+	background: #0000ff;
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+	display: block;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: fixed;
+	top: 5px;
+	left: 5px;
+}
+#OTurn{
+	height: 100px;
+	width: 300px;
+	background: #00ff00;
+	color: #000;
+	font-size: 80px;
+	text-align: center;
+	display: block;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+#vs{
+	height: 100px;
+	width: 345px;
+	background: #00FFFD;
+	color: #434343;
+	font-size: 80px;
+	text-align: center;
+	display: block;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: fixed;
+	top: 5px;
+	right: 315px;
+}
+
+
+
+
+
+
+
+
+
+
